@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MoePanel</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<style>
+			body {
+				background-attachment: fixed, fixed, fixed, fixed;
+				background-color: #070707 !important;
+				background-image: url(grillleft.png), url(grillmid.png), url(grillright.png), url(bg.png);
+				background-position: 5% 100%, 50% 100%, 95% 100%, top left;
+				background-size: auto, auto, 275px, auto;
+				background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+			}
+		</style>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/sweetalert.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css"></style>
+		<link rel="stylesheet" href="css/font-awesome.min.css"></style>
+		<link rel="stylesheet" href="css/sweetalert.css"></style>
+	</head>
+	<body style="padding-top: 70px;">
+		<center>
+			<div class="col-md-4 col-md-offset-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Sign In</h3>
+					</div>
+					<div class="panel-body">
+						<form action="panel.html">
+							<fieldset>
+								<div class="form-group">
+									<input class="form-control" placeholder="Username" name="username" type="text">
+								</div>
+								<div class="form-group">
+									<input class="form-control" placeholder="Password" name="password" type="password" value="">
+								</div>
+								<div class="checkbox">
+									<label>
+										<input name="remember" type="checkbox" value="Remember Me"> Remember Me
+									</label>
+								</div>
+								<input style="width:32%" class="btn btn-lg btn-success" type="submit" value="Login">
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</center>
+	</body>
+</html>
